@@ -1,10 +1,9 @@
 package TemplateMethodPattern;
 
-public class ExcelFile extends DataProcessor{
-
+public class TextFile extends DataProcessor{
     @Override
     void readData() {
-        System.out.println("The data is being read in Excel File");
+        System.out.println("The data is being read in Text File");
     }
 
     @Override
